@@ -3,7 +3,7 @@ This Action uses the [GitHub API](https://developer.github.com/v3/actions/workfl
 
 ```yaml
     - name: cancelling
-      uses: andymckay/emmanuelnk@<LATEST_COMMIT_HASH>
+      uses: emmanuelnk/cancel-action@<LATEST_COMMIT_HASH>
 ```
 
 The cancellation might take a few seconds to process, this is most useful when you'd like to cancel a long running build. In combination with the `if` statement, this allows you to cancel the build conditionally.
